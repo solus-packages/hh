@@ -1,0 +1,16 @@
+name       : hh
+version    : 1.22
+release    : 1
+source     :
+    - https://github.com/dvorka/hstr/releases/download/1.22/hh-1.22-src.tgz : 17c720e22a155f19b9a0ac79ad8aab780dc6d35e5f7d67ef928561d441283027
+license    : Apache-2.0
+component  : system.utils
+summary    : Manage your command history.
+description: |
+    Bash and Zsh shell history suggest box - easily view, navigate, search and manage your command history.
+setup      : |
+    %configure
+build      : |
+    %make
+install    : |
+    %make_install
