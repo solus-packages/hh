@@ -2,34 +2,36 @@
     <Source>
         <Name>hh</Name>
         <Packager>
-            <Name>dyrnade</Name>
-            <Email>gurescicem@gmail.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>system.utils</PartOf>
-        <Summary xml:lang="en">Manage your command history.</Summary>
+        <Summary xml:lang="en">hstr - manage your command history</Summary>
         <Description xml:lang="en">Bash and Zsh shell history suggest box - easily view, navigate, search and manage your command history.
 </Description>
         <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>hh</Name>
-        <Summary xml:lang="en">Manage your command history.</Summary>
+        <Summary xml:lang="en">hstr - manage your command history</Summary>
         <Description xml:lang="en">Bash and Zsh shell history suggest box - easily view, navigate, search and manage your command history.
 </Description>
         <PartOf>system.utils</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="man">/usr/share/man</Path>
+            <Path fileType="executable">/usr/bin/hh</Path>
+            <Path fileType="executable">/usr/bin/hstr</Path>
+            <Path fileType="man">/usr/share/man/man1/hh.1</Path>
+            <Path fileType="man">/usr/share/man/man1/hstr.1</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2017-04-18</Date>
-            <Version>1.22</Version>
+        <Update release="2">
+            <Date>2018-08-02</Date>
+            <Version>1.25</Version>
             <Comment>Packaging update</Comment>
-            <Name>dyrnade</Name>
-            <Email>gurescicem@gmail.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
