@@ -1,8 +1,8 @@
 name       : hh
-version    : '1.25'
-release    : 2
+version    : '2.0'
+release    : 3
 source     :
-    - https://github.com/dvorka/hstr/releases/download/1.25/hh-1.25-src.tgz : 0f5aad093c60bd79b8da22e8a560dd27f737d4847c4c7e12d99f153d1490d282
+    - https://github.com/dvorka/hstr/releases/download/2.0/hstr-2.0.0-tarball.tgz : 9844587d4e91daa8a78eeeac13e995995fff36616fda5f374da7301c9bce15e4
 license    : Apache-2.0
 component  : system.utils
 summary    : hstr - manage your command history
